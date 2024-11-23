@@ -1,34 +1,32 @@
 # Library Management API
 
-Library Management API developed with PHP and the Slim framework. It features endpoints for user registration, authentication, and managing authors and books. The API leverages JSON Web Tokens (JWT) for secure authentication and token handling.
+The **Library Management API** is developed using PHP and the Slim framework. It provides endpoints for user registration, authentication, and managing authors and books. The API uses JSON Web Tokens (JWT) for secure authentication and token management.
 
-##Features 
+## Features
 
-- **User Management:** The user can Register, Authenticate, Show, Update, and Delete Users
-- **Author Management:** The user can Register, Show, Update, and Delete Authors
-- **Book Management:** The user can Register, Show, Update, and Delete Books
-- **Book Authors:** The user can Register, Show, Update, and Delete Book Authors
-- **Token Management:** The user can Generate, Validate
+- **User Management:** Register, Authenticate, Show, Update, and Delete Users.
+- **Author Management:** Register, Show, Update, and Delete Authors.
+- **Book Management:** Register, Show, Update, and Delete Books.
+- **Book-Author Management:** Manage associations between Books and Authors.
+- **Token Management:** Generate and Validate tokens for secure access.
 
-##Requirements
+## Requirements
 
--PHP 7.4 or higher
--MySQLyog
--XAMPP
--SLIM
--Git
--Firebase
--Composer
--Node.js
+- PHP 7.4 or higher
+- MySQLyog
+- XAMPP
+- Slim Framework
+- Git
+- Firebase (for JWT)
+- Composer
+- Node.js
 
-##Installation
+## Installation
 
-1. Clone the Repository:
-'git clone https://github.com/aplejoy/Library_API.git'
-'cd Library_API'
-2. Install dependencies:
-'composer require slim/slim:3.*'
-'composer require firebase/php-jwt'
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/aplejoy/Library_API.git
+   cd Library_API
 
 ##API Endpoints
 
