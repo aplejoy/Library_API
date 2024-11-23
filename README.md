@@ -27,6 +27,10 @@ The **Library Management API** is developed using PHP and the Slim framework. It
    ```bash
    git clone https://github.com/aplejoy/Library_API.git
    cd Library_API
+2. **Install dependencies**
+   ```bash
+   composer require slim/slim:3.*
+   composer require firebase/php-jwt
 
 ## API Endpoints
 
@@ -35,11 +39,12 @@ The **Library Management API** is developed using PHP and the Slim framework. It
 **Register User**:
 - **Endpoint:** '/user/register'
 - **Method:** 'POST'
-- **Payload:** 
-'{
+- **Payload:**
+   ```bash
+{
   "username": "your_username",
   "password": "your_password"
-}'
+}
 
 **Authenticate User**:
 - **Endpoint:** '/user/auth'
