@@ -3,6 +3,7 @@
 Library Management API developed with PHP and the Slim framework. It features endpoints for user registration, authentication, and managing authors and books. The API leverages JSON Web Tokens (JWT) for secure authentication and token handling.
 
 ##Features 
+
 - **User Management:** The user can Register, Authenticate, Show, Update, and Delete Users
 - **Author Management:** The user can Register, Show, Update, and Delete Authors
 - **Book Management:** The user can Register, Show, Update, and Delete Books
@@ -10,6 +11,7 @@ Library Management API developed with PHP and the Slim framework. It features en
 - **Token Management:** The user can Generate, Validate
 
 ##Requirements
+
 -PHP 7.4 or higher
 -MySQLyog
 -XAMPP
@@ -20,6 +22,7 @@ Library Management API developed with PHP and the Slim framework. It features en
 -Node.js
 
 ##Installation
+
 1. Clone the Repository:
 'git clone https://github.com/aplejoy/Library_API.git'
 'cd Library_API'
