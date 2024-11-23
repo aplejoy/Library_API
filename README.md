@@ -37,31 +37,33 @@ The **Library Management API** is developed using PHP and the Slim framework. It
 ### User Management
 
 **Register User**:
-- **Endpoint:** '/user/register'
-- **Method:** 'POST'
+- **Endpoint:** `/user/register`
+- **Method:** `POST`
 - **Payload:**
-   ```bash
-{
+   ```json
+   {
   "username": "your_username",
   "password": "your_password"
-}
+   }
 
 **Authenticate User**:
-- **Endpoint:** '/user/auth'
-- **Method:** 'POST'
-- **Payload:** 
-'{
+- **Endpoint:** `/user/auth`
+- **Method:** `POST`
+- **Payload:**
+   ```json
+   {
   "username": "your_username",
   "password": "your_password"
-}'
+   }
 
 **Show Users**:
--**Endpoint:** '/user/show'
--**Method:** 'GET'
+-**Endpoint:** `/user/show`
+-**Method:** `GET`
 -**Payload:** 
-'{
-  "Authorization": "Bearer your_token"
-}'
+  ```json
+   {
+     "Authorization": "Bearer your_token"
+   }
 
 **Update User**:
 -**Endpoint:** '/user/update'
