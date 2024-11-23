@@ -28,22 +28,23 @@ The **Library Management API** is developed using PHP and the Slim framework. It
    git clone https://github.com/aplejoy/Library_API.git
    cd Library_API
 
-##API Endpoints
+## API Endpoints
 
-###User Management
+### User Management
+
 **Register User**:
--**Endpoint:** '/user/register'
--**Method:** 'POST'
--**Payload:** 
+- **Endpoint:** '/user/register'
+- **Method:** 'POST'
+- **Payload:** 
 '{
   "username": "your_username",
   "password": "your_password"
 }'
 
 **Authenticate User**:
--**Endpoint:** '/user/auth'
--**Method:** 'POST'
--**Payload:** 
+- **Endpoint:** '/user/auth'
+- **Method:** 'POST'
+- **Payload:** 
 '{
   "username": "your_username",
   "password": "your_password"
