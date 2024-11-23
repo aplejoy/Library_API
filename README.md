@@ -218,5 +218,5 @@ The **Library Management API** is developed using PHP and the Slim framework. It
    }
 
 ## Token Management
-- **Generate a Token:** Tokens are created during user authentication and recorded in the tokens table with an 'active' status.
-- **Validate the Token:** The validateToken function is used to verify tokens by checking their status and decoding them to extract the user ID.
+- **Generate a Token:** Tokens are created during user authentication and recorded in the `tokens` table with an 'active' status.
+- **Validate the Token:** The `validateToken` function is used to verify tokens by checking their status and decoding them to extract the user ID.
